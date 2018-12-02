@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Java_projects/Java/Triangle/src/test/java">
+        <classes>
+            <class name="triangle.TriangleTest">
+                <methods>
+                    <include name="testCheckTriangle_withSidesLessOrEqZero"/>
+                    <include name="testCheckTriangle_withSidesWrongForTriangleInequality"/>
+                    <include name="testCheckTriangle_withRightSides"/>
+                    <include name="testDetectTriangle_whereTriangleEquilateral"/>
+                    <include name="testDetectTriangle_whereTriangleIsosceles"/>
+                    <include name="testDetectTriangle_whereTriangleRectangular"/>
+                    <include name="testDetectTriangle_whereTriangleIsoscelesRectangular"/>
+                    <include name="testDetectTriangle_whereTriangleOrdinary"/>
+                    <include name="testGetSquare"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
